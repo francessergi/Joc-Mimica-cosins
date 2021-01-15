@@ -13,3 +13,5 @@ Una persona del equipo coge palabras al azar y hace mímica.
 
 4. Ronda 3:  
 Una persona del equipo coge palabras al azar y la define con una sola palabra.
+
+https://francessergi.github.io/Joc-Mimica-cosins/
