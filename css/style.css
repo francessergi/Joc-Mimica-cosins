@@ -1,0 +1,20 @@
+div#settup {
+    background-color: beige;
+    height: fit-content;
+    margin: auto;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3em;
+    border-radius: 15px;
+    margin-top: 2em;
+    box-shadow: 5px 5px 25px 5px;
+}
+
+#llista {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 1em;
+}

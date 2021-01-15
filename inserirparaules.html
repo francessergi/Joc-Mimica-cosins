@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="jugadors">
+        <label for="num_jugadors">Numero de Jugadors</label>
+        <input type="number" name="num_jugadors" id="num_jugadors">
+        <input type="submit" value="Next" onclick="inserir()" id="pr">
+    </div>
+    <div id="llista">
+        <h2>Introdueix paraules.</h2>
+        <label for="nom" id="nom_jugador">Jugador</label>
+        <input type="text" name="nom" placeholder="Nom Jugador" class="camp">
+        <input type="text" placeholder="Adjectiu" class="camp">
+        <input type="text" placeholder="Substantiu" class="camp">
+        <input type="text" placeholder="Treball" class="camp">
+        <input type="text" placeholder="Personatge Famos" class="camp">
+        <input type="submit" onclick="guarda()">
+    </div>
+    <div id="camp">
+        <section id="blau"></section>
+        <section id="joc"></section>
+        <section id="vermell"></section>
+    </div>
+</body>
+
+</html>
+
+<script src="./app2.js"></script>
